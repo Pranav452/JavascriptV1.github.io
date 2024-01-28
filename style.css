@@ -38,20 +38,56 @@ body{
  }
  body{
     background-color: darkgrey;
+    margin: 1px;
  }
  #myText{
     background-color: black;
     color: white;
     border: 2px solid  blueviolet ;border-color: blueviolet;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     
  }
  #mySubmit{
-    padding: 5px 10px;
+    padding: 10px 10px;
     background-color: coral;
     border-radius: 5px;
  }
  #resultElement{
     text-align: center;
  }
+ #pokeball{
+    text-transform: capitalize;
+    font-size: 1.5em; 
+    text-decoration: underline;
+
+
+ }
+ #mohan{
+    border: 2px solid black;
+    background-color: aqua;
+ }
+.chandan{
+    background-color:navajowhite;
+    border: 2px solid rgb(0, 0, 0);
+    display: block
+    
+}
+.pon{
+    text-transform: capitalize;
+    font-size: 1.5em; 
+    text-decoration: underline;
+
+
+}
+.opan{
+    text-transform: capitalize;
+    font-size: 1.5em; 
+    text-decoration: underline;
+
+}
+.rahul{
+    padding: 50px;
+    background-color: greenyellow;
+    border: 2px solid;
+}
