@@ -1,0 +1,70 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-damon-hall-1647177.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.glass-panel {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 45%; /* Adjust the width as needed */
+    border-radius: 15px;
+    padding: 16px; /* Adjust the padding as needed */
+    backdrop-filter: blur(10px);
+    text-align: center; /* Center text in the glass panel */
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-bottom: 20px; /* Adjust the margin-bottom to move it slightly below the center */
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px 30px;
+    border: 0;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for background-color */
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* Adjust the blur as needed */
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+.button--yes {
+    background-color: rgba(144, 238, 144, 0.8);
+}
+
+.button--no {
+    background-color: rgba(220, 20, 60, 0.8);
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
+}
